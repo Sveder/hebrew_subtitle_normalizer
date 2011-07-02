@@ -1,0 +1,15 @@
+This is distributed under the CC Attribution license:
+http://creativecommons.org/licenses/by/3.0/
+
+There is nothing more simple yet so needed (at least for my parents :) - somehow Israeli 
+subtitle makers still haven't discovered UTF-8, and they save their subtitles at the Hebrew
+code page in DOS (CP1255). Programs like VLC don't like code pages and display the equivelant
+in the default code page, meanin we see latin characters instead.
+
+
+Usage:
+hebrew_subtitles_normalizer.py <subtitle_file>
+The old subtitles will be saved with a .old extension, in case the script is not the fix you
+were looking for.
+
+MS@svedersoft.com, 12/08
